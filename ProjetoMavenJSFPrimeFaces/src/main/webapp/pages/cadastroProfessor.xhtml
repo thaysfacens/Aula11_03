@@ -22,7 +22,8 @@
       <p:inputText value="#{professorManagedBean.professor.codigo}"/>
 	  <p:outputLabel value="#{msg['pages.cadastroProfessor.nome']}" />
       <p:inputText value="#{professorManagedBean.professor.nome}"/>
-      <p:outputLabel value="#{professorManagedBean.professor.materia}"/>
+      <p:outputLabel value="#{msg['pages.cadastroProfessor.materia']}"/>
+      <p:inputText value="#{professorManagedBean.professor.materia}"/>
 	  </p:panelGrid>
 	  <p:commandButton value="#{msg['pages.cadastroProfessor.btnSalvar']}" 
 	                 action="#{professorManagedBean.salvar}"
